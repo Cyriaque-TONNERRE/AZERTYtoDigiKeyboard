@@ -5,7 +5,7 @@ Supporte la grande majorité des caractères requis.
 
 Il suffit d'ajouter en argument le string AZERTY pour qu'il soit directement converti en instruction.
 
-EX: `./main.py powershell -noexit -command \"mode con cols=18 lines=1\"`
+EX: `./main.py powershell -noexit -command "[console]::WindowWidth=100; [console]::WindowHeight=50; [console]::BufferWidth=[console]::WindowWidth"`
 
 Sortie : 
 ```ino
