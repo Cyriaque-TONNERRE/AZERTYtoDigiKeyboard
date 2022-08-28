@@ -148,7 +148,7 @@ else:
     else:
         while IndexList < len(ListUserInput):
             BufferList = [None] * 2560
-            BufferList[0] = "DigiKeyboard.print(\""
+            BufferList[0] = "  DigiKeyboard.print(\""
             IndexBuffer = 1
             while IndexList < len(ListUserInput):
                 if not is_spe(ListUserInput[IndexList]):
@@ -162,4 +162,4 @@ else:
             if IndexList < len(ListUserInput):
                 print(convert_spe(ListUserInput[IndexList]))
                 IndexList += 1
-        print("DigiKeyboard.println();")
+        print("  DigiKeyboard.println();")
