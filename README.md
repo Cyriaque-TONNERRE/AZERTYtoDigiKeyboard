@@ -1,8 +1,9 @@
 # AZERTYtoDigiKeyboard
-Permet de transformer un string en AZERTY pour le rendre compatible avec DigiKeyboard.h natif
+Permet de transformer un string en AZERTY pour le rendre compatible avec DigiKeyboard.h natif.
+
 Supporte la grande majorité des caractères requis.
 
-Il suffit d'ajouter en argument le string AZERTY pour qu'il soit directement converti en instruction
+Il suffit d'ajouter en argument le string AZERTY pour qu'il soit directement converti en instruction.
 
 EX: `./main.py powershell -noexit -command \"mode con cols=18 lines=1\"`
 
