@@ -129,7 +129,7 @@ def convert(string):
     return ''.join(string_list)
 
 
-Tab = [None] * 256
+Tab = [None] * 2560
 i_pos = 0
 for i in range(1, len(sys.argv)):
     Tab[i_pos] = sys.argv[i]
@@ -147,7 +147,7 @@ else:
         IndexList += 1
     else:
         while IndexList < len(ListUserInput):
-            BufferList = [None] * 256
+            BufferList = [None] * 2560
             BufferList[0] = "DigiKeyboard.print(\""
             IndexBuffer = 1
             while IndexList < len(ListUserInput):
